@@ -4,7 +4,7 @@ This folder contains the Flask backend that supports the Custom GPT demo by prov
 
 ---
 
-## ⚙️ **Features**
+## **Features**
 - `GET /drive/<file_id>` – downloads a `.docx` from Google Drive by file ID and extracts text using Mammoth.
 - `GET /list-docs` – lists available `.docx` documents in the shared Drive folder.
 - `GET /drive/by-name/<filename>` – fetches and extracts a document by filename.
